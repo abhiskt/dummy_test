@@ -1,0 +1,7 @@
+def divide(a, b):
+    if b!=0:
+        return a / b
+    else:
+        return "Division by zero is not allowed"
+
+print(divide(a:=int(input()), b:=int(input())))
