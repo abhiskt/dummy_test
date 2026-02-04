@@ -18,7 +18,4 @@ class Calculator:
 
     def is_even(self, number):
         return number % 2 == 0
-    
 
-    def is_odd(self, number):
-        return not number & 1
